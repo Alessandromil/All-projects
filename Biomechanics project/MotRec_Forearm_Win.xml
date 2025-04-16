@@ -1,0 +1,32 @@
+<MotionReconstruction Type="IK" SolverIK="OTM">
+  <!-- InfoDisplay. Defines the amount of messages showed in Matlab. Possible values: Minimum/Standard/Complete -->
+  <InfoDisplay>Minimum</InfoDisplay>
+  <Results_MotRec>	  
+	  <Compamm>
+		  <!-- Playback. Reconstructed motion in Compamm format (*.pb & *.sim) -->
+		  <Playback>Yes</Playback>
+		  <!-- Position. Position of all model elements (markers, vectors, points) in Compamm format (*.pos) -->
+		  <Position>Yes</Position>
+		  <!-- Sensor. Variables measured by sensors in Compamm format (*.sen) -->
+		  <Sensor>Yes</Sensor>
+	  </Compamm>
+  </Results_MotRec>  
+  <Model>
+    <!-- Path. Path for the human model definition file. Options:
+    	 1) full path e.g. C:/Users/MotRec/Models/Pendulum/  	
+         2) a path relative to this file  e.g. ./Models/Pendulum/ -->
+    <ModelPath>.\Models\Forearm\</ModelPath>
+    <!-- File. Model file in xml format -->
+    <ModelFile>Forearm.xml</ModelFile>
+  </Model>
+  <Experiment>
+    <!-- ExpPath. Path for the experimental data. Options:
+         1) full path e.g. C:/Users/MotRec/Experiments/ExpPend/  	
+         2) a path relative to this file  e.g. ./Experiments/ExpPend/ -->
+    <ExpPath>.\Experiments\ExpForearm\</ExpPath>
+    <!-- GuidedVarsFile. File that defines the model guided variables. Must be in ./ExpPath/AdditionalEquations/ -->
+    <GuidedVarsFile>Forearm_guidedVars.m</GuidedVarsFile>
+    <Motion>extension.mat</Motion>
+    <Motion>supination.mat</Motion>
+  </Experiment>
+</MotionReconstruction>

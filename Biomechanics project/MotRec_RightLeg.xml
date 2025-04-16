@@ -1,0 +1,33 @@
+<MotionReconstruction Type="IK" SolverIK="OTM">
+  <!-- InfoDisplay. Defines the amount of messages showed in Matlab. Possible values: Minimum/Standard/Complete -->
+  <InfoDisplay>Minimum</InfoDisplay>
+  <Results_MotRec>	  
+	  <Compamm>
+		  <!-- Playback. Reconstructed motion in Compamm format (*.pb & *.sim) -->
+		  <Playback>Yes</Playback>
+		  <!-- Position. Position of all model elements (markers, vectors, points) in Compamm format (*.pos) -->
+		  <Position>Yes</Position>
+		  <!-- Sensor. Variables measured by sensors in Compamm format (*.sen) -->
+		  <Sensor>Yes</Sensor>
+	  </Compamm>
+  </Results_MotRec>  
+  <Model>
+    <!-- Path. Path for the human model definition file. Options:
+    	 1) full path e.g. C:/Users/MotRec/Models/Pendulum/  	
+         2) a path relative to this file  e.g. ./Models/Pendulum/ -->
+    <ModelPath>.\Models\RightLeg\</ModelPath>
+    <!-- File. Model file in xml format -->
+    <ModelFile>RightLeg.xml</ModelFile>
+  </Model>
+  <Experiment>
+    <!-- ExpPath. Path for the experimental data. Options:
+         1) full path e.g. C:/Users/MotRec/Experiments/ExpPend/  	
+         2) a path relative to this file  e.g. ./Experiments/ExpPend/ -->
+    <ExpPath>.\Experiments\ExpRightLeg\</ExpPath>
+    <!-- GuidedVarsFile. File that defines the model guided variables. Must be in ./ExpPath/AdditionalEquations/ -->
+      <GuidedVarsFile>RightLeg_guidedVars.m</GuidedVarsFile>
+      <Motion>Group10_static1.c3d</Motion>
+      <Motion>Group10_ankle1.c3d</Motion>
+      <Motion>Group10_knee1.c3d</Motion>
+  </Experiment>
+</MotionReconstruction>

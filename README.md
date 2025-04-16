@@ -10,3 +10,10 @@ Set of all relevant projects done during my university career.
 3. Progetto economia:
    - Presentazione_SANOFI: project presentation
    - Progetto Sanofi: Excel spreadsheet containing all the calculations related to the analysis
+4. Tesi triennale:
+   - Tesi triennale: this is the final version of the report for my Bachelor's thesis, which includes a detailed description of the project, the 
+                     methodology used, and the results obtained.
+   - Parametri: this section includes the calculation of all the relevant parameters used for processing and interpreting the results.
+   - Preprocessing: this folder contains the preprocessing phase of the acquired signals, including all the steps needed to clean and prepare the data 
+                    for analysis.
+     

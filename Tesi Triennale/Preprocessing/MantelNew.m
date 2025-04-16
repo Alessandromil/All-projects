@@ -10,7 +10,7 @@
 %  1. baseline determination. (pp. 261-272)
 %  2. detection of accelerations and decelerations. (pp. 273-286)"
 % 
-% Parametri è un vettore riga di 64 elementi; solo alcuni sono rilevanti 
+% Parametri Ã¨ un vettore riga di 64 elementi; solo alcuni sono rilevanti 
 % per questa routine:
 % PARAMETRI(6)=VERDE;
 % PARAMETRI(7)=GIALLO;

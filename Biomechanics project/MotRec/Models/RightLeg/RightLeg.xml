@@ -1,0 +1,42 @@
+<HumanModel Name="RightLeg" CoordType="Natural">
+  <Segment Name="Ground" Type="Fixed">
+    <Point Name="OG"  LocCoord="[ 0; 0; 0]"/> 
+    <Vector Name="XG" LocCoord="[1;0;0]"/>
+    <Vector Name="ZG" LocCoord="[0;0;1]"/>
+    <Vector Name="YG" LocCoord="[0;1;0]"/>
+  </Segment>
+  <Segment Name="Shank">
+    <Point Name="AJC" LocCoord="[0;0;0]"/>
+    <Point Name="KJC" LocCoord="[0;0.3658;0]"/> 
+    <Vector Name="Xs" LocCoord="[1;0;0]" />
+    <Vector Name="Zs" LocCoord="[0;0;1]" />
+    <Marker Name="MarkerSet_G10_RS" LocCoord="[0.0301;0.1213;0.0157]"/>
+    <Marker Name="MarkerSet_G10_LM" LocCoord="[-0.0165;-0.0091;0.0386]"/>
+    <Marker Name="MarkerSet_G10_MM" LocCoord="[0.0165;0.009;-0.0386]"/>
+    <Graphic DrawSeq="AJC,KJC" Radius="0.01" Colour="Gray-25%" />
+  </Segment>
+    <Segment Name="Foot" >
+    <Point Name="AJC" LocCoord="[0;0;0]"/>
+    <Vector Name="Xf" LocCoord="[1;0;0]" />
+    <Vector Name="Yf" LocCoord="[0;1;0]" />
+    <Vector Name="Zf" LocCoord="[0;0;1]" />
+    <Marker Name="MarkerSet_G10_F2" LocCoord="[0.0611;0.0029;0.0325]"/>
+    <Marker Name="MarkerSet_G10_F1" LocCoord="[0.1307;-0.0376;-0.0059]"/>
+    <Marker Name="MarkerSet_G10_F3" LocCoord="[0.0833;-0.041;0.0858]"/>
+    <Graphic DrawSeq="AJC,MarkerSet_G10_F3" Radius="0.01" Colour="Gray-25%" />
+  </Segment>
+     <Joint Name="Ankle_joint" Type="UNI" Seg1="Shank" Point1="AJC" Seg1Axis="Zs" Seg2="Foot" Point2="AJC" Seg2Axis="Xf" AxesAng="90"/>
+  <Sensor Name="Ankle_sensor" Type="SPH" Seg1="Shank" Seg2="Foot" RotSeq="ZYX" />
+<Segment Name="Thigh" >
+    <Point Name="KJC" LocCoord="[0;0;0]"/>
+    <Point Name="HJC" LocCoord="[0;0.47;0]"/> 
+    <Vector Name="Xt" LocCoord="[1;0;0]" />
+    <Vector Name="Zt" LocCoord="[0;0;1]" />
+    <Marker Name="MarkerSet_G10_RT" LocCoord="[0.0982;0.1247;-0.006]"/>
+    <Marker Name="MarkerSet_G10_LFE" LocCoord="[0;0.006;0.055]"/>
+    <Marker Name="MarkerSet_G10_MFE" LocCoord="[0;-0.006;-0.055]"/>
+    <Graphic DrawSeq="KJC,HJC" Radius="0.01" Colour="Gray-25%" />
+ </Segment>
+     <Joint  Name="Knee_joint" Type="REV" Seg1="Thigh" Point1="KJC" Seg1Axis="Zt" Seg2="Shank" Point2="KJC" Seg2Axis="Zs"/>
+  <Sensor Name="Knee_sensor" Type="SPH" Seg1="Thigh" Seg2="Shank" RotSeq="ZYX" />
+</HumanModel>

@@ -1,0 +1,20 @@
+<HumanModel Name="Pendulum" CoordType="Natural">
+  <Segment Name="Ground" Type="Fixed">
+    <Point Name="P1"  LocCoord="[-0.254; 0.912; 0.668]"/> 
+    <Vector Name="XG" LocCoord="[1;0;0]" />
+    <Vector Name="ZG" LocCoord="[0;0;1]" />
+    <Vector Name="YG" LocCoord="[0;1;0]" />
+  </Segment>
+  <Segment Name="Bar1" >
+    <Point Name="P1" LocCoord="[0;0;0]"/>
+    <Point Name="P2" LocCoord="[0.111;0;0]"/>
+    <Vector Name="Yb1" LocCoord="[0;1;0]" />
+    <Vector Name="ZG" LocCoord="[0;0;1]" />
+    <Marker Name="B1_M1" LocCoord="[0.027; 0.006; 0.018]"/>
+    <Marker Name="B1_M2" LocCoord="[0.111;-0.017; 0.0]"/>
+    <Marker Name="B1_M3" LocCoord="[0.111; 0.065; 0.0]"/>
+    <Graphic DrawSeq="P1,P2,B1_M3" Radius="0.01" Colour="Gray-25%" />
+  </Segment>
+  <Joint  Name="J1"   Type="REV" Seg1="Ground" Point1="P1" Seg1Axis="ZG" Seg2="Bar1" Point2="P1" Seg2Axis="ZG"/>
+  <Sensor Name="Sen1" Type="SPH" Seg1="Ground" Seg2="Bar1" RotSeq="ZYX" /> 
+</HumanModel>

@@ -8,7 +8,7 @@
 % Interval difference index"
 % Am J Obstet Gynecol, 138 (1980) 246-252.
 %
-% Parametri è un vettore riga di 64 elementi; solo alcuni sono rilevanti 
+% Parametri Ã¨ un vettore riga di 64 elementi; solo alcuni sono rilevanti 
 % per questa routine:
 % PARAMETRI(8)=ROSSO;
 % PARAMETRI(41)=FCF_MAX;

@@ -1,0 +1,913 @@
+----------------------------------------------------------------------------------------------------
+ Motion Reconstruction for model: RightLeg, motion: Group10_ankle1
+----------------------------------------------------------------------------------------------------
+  Reading the motion file:Group10_ankle1.c3d...
+  No filtering applied to marker trajectories.
+  No interpolation applied to gaps in marker trajectories
+   There are not any missing marker in the motion file
+
+  -------------------------------------------------------------------------
+   Inverse Kinematic Motion Reconstruction (DHIK) 
+  -------------------------------------------------------------------------
+   Solving problem with Optimal Tracking Method. Problem sizes:
+    57 generalized coordinates
+    27 driven generalized coordinates
+    49 kinematic constraints in Phi(q)
+    Phiq has size (49 x 57)
+    Phiq'*Phiq has size (57 x 57)
+    The complete matrix of the problem has size (114 x 114)
+
+    Step Nº = 1/397 - SAFE MODE
+      Iter Nº = 1,  NormPhi = 2.494e-01,  objfun = 6.838e-04,  normDeltaq = 7.863e-01,  beta = 0.55,  rank(C) = 106
+      Iter Nº = 2,  NormPhi = 4.252e-02,  objfun = 1.426e-03,  normDeltaq = 2.854e-01,  beta = 1,  rank(C) = 106
+      Iter Nº = 3,  NormPhi = 3.323e-03,  objfun = 1.365e-03,  normDeltaq = 8.693e-02,  beta = 1,  rank(C) = 105
+      Iter Nº = 4,  NormPhi = 1.428e-04,  objfun = 1.362e-03,  normDeltaq = 1.557e-02,  beta = 1,  rank(C) = 105
+      Iter Nº = 5,  NormPhi = 8.445e-06,  objfun = 1.361e-03,  normDeltaq = 4.343e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 6,  NormPhi = 5.881e-07,  objfun = 1.361e-03,  normDeltaq = 1.102e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 2/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.887e-07,  objfun = 1.342e-03,  normDeltaq = 7.307e-03,  beta = 0.101,  rank(C) = 105
+    Step Nº = 3/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.659e-06,  objfun = 1.322e-03,  normDeltaq = 1.342e-02,  beta = 0.101,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 3.304e-06,  objfun = 1.322e-03,  normDeltaq = 1.198e-02,  beta = 0.101,  rank(C) = 105
+      Iter Nº = 3,  NormPhi = 3.703e-06,  objfun = 1.322e-03,  normDeltaq = 1.070e-02,  beta = 0.101,  rank(C) = 105
+      Iter Nº = 4,  NormPhi = 3.661e-06,  objfun = 1.322e-03,  normDeltaq = 9.557e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 5,  NormPhi = 3.607e-06,  objfun = 1.322e-03,  normDeltaq = 9.054e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 6,  NormPhi = 3.543e-06,  objfun = 1.322e-03,  normDeltaq = 8.578e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 7,  NormPhi = 3.470e-06,  objfun = 1.322e-03,  normDeltaq = 8.128e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 8,  NormPhi = 3.390e-06,  objfun = 1.322e-03,  normDeltaq = 7.702e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 9,  NormPhi = 3.305e-06,  objfun = 1.322e-03,  normDeltaq = 7.299e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 10,  NormPhi = 3.216e-06,  objfun = 1.321e-03,  normDeltaq = 6.918e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 11,  NormPhi = 3.123e-06,  objfun = 1.321e-03,  normDeltaq = 6.558e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 12,  NormPhi = 3.028e-06,  objfun = 1.321e-03,  normDeltaq = 6.217e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 13,  NormPhi = 2.932e-06,  objfun = 1.321e-03,  normDeltaq = 5.894e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 14,  NormPhi = 2.835e-06,  objfun = 1.321e-03,  normDeltaq = 5.589e-03,  beta = 0.05,  rank(C) = 105
+      Iter Nº = 15,  NormPhi = 2.730e-06,  objfun = 1.321e-03,  normDeltaq = 5.300e-03,  beta = 0.1,  rank(C) = 105
+      Iter Nº = 16,  NormPhi = 2.600e-06,  objfun = 1.321e-03,  normDeltaq = 4.754e-03,  beta = 0.1,  rank(C) = 105
+      Iter Nº = 17,  NormPhi = 2.456e-06,  objfun = 1.321e-03,  normDeltaq = 4.267e-03,  beta = 0.1,  rank(C) = 105
+      Iter Nº = 18,  NormPhi = 2.297e-06,  objfun = 1.321e-03,  normDeltaq = 3.832e-03,  beta = 0.15,  rank(C) = 105
+      Iter Nº = 19,  NormPhi = 2.103e-06,  objfun = 1.321e-03,  normDeltaq = 3.250e-03,  beta = 0.15,  rank(C) = 105
+      Iter Nº = 20,  NormPhi = 1.876e-06,  objfun = 1.321e-03,  normDeltaq = 2.761e-03,  beta = 0.2,  rank(C) = 105
+      Iter Nº = 21,  NormPhi = 1.591e-06,  objfun = 1.321e-03,  normDeltaq = 2.213e-03,  beta = 0.3,  rank(C) = 105
+      Iter Nº = 22,  NormPhi = 1.177e-06,  objfun = 1.321e-03,  normDeltaq = 1.567e-03,  beta = 0.5,  rank(C) = 105
+      Iter Nº = 23,  NormPhi = 4.218e-07,  objfun = 1.321e-03,  normDeltaq = 8.360e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 4/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.041e-05,  objfun = 1.300e-03,  normDeltaq = 5.743e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 3.078e-07,  objfun = 1.300e-03,  normDeltaq = 8.472e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 5/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.336e-06,  objfun = 1.276e-03,  normDeltaq = 1.455e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.473e-08,  objfun = 1.276e-03,  normDeltaq = 1.562e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 6/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.902e-06,  objfun = 1.251e-03,  normDeltaq = 1.671e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.463e-09,  objfun = 1.251e-03,  normDeltaq = 1.019e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 7/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.460e-06,  objfun = 1.224e-03,  normDeltaq = 1.895e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.021e-08,  objfun = 1.224e-03,  normDeltaq = 1.272e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 8/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.662e-06,  objfun = 1.195e-03,  normDeltaq = 1.981e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.581e-08,  objfun = 1.195e-03,  normDeltaq = 1.571e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 9/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.993e-06,  objfun = 1.165e-03,  normDeltaq = 1.714e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.143e-08,  objfun = 1.165e-03,  normDeltaq = 1.335e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 10/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.155e-06,  objfun = 1.134e-03,  normDeltaq = 1.304e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 4.281e-09,  objfun = 1.134e-03,  normDeltaq = 8.134e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 11/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.664e-07,  objfun = 1.104e-03,  normDeltaq = 9.206e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 12/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.820e-07,  objfun = 1.074e-03,  normDeltaq = 5.584e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 13/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.085e-07,  objfun = 1.044e-03,  normDeltaq = 4.520e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 14/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.215e-07,  objfun = 1.016e-03,  normDeltaq = 4.685e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 15/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.272e-07,  objfun = 9.894e-04,  normDeltaq = 4.837e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 16/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.339e-07,  objfun = 9.639e-04,  normDeltaq = 4.868e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 17/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.051e-07,  objfun = 9.392e-04,  normDeltaq = 5.856e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 18/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.822e-07,  objfun = 9.150e-04,  normDeltaq = 8.049e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 19/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.685e-07,  objfun = 8.910e-04,  normDeltaq = 8.014e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 20/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.378e-07,  objfun = 8.676e-04,  normDeltaq = 4.991e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 21/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.130e-07,  objfun = 8.462e-04,  normDeltaq = 5.665e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 22/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.858e-07,  objfun = 8.272e-04,  normDeltaq = 7.823e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 23/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.166e-07,  objfun = 8.101e-04,  normDeltaq = 9.788e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 24/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.024e-06,  objfun = 7.944e-04,  normDeltaq = 1.249e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 7.222e-09,  objfun = 7.944e-04,  normDeltaq = 1.116e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 25/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.849e-07,  objfun = 7.802e-04,  normDeltaq = 1.229e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 26/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.456e-06,  objfun = 7.672e-04,  normDeltaq = 1.508e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.100e-08,  objfun = 7.672e-04,  normDeltaq = 1.392e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 27/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.077e-06,  objfun = 7.547e-04,  normDeltaq = 1.302e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 7.664e-09,  objfun = 7.547e-04,  normDeltaq = 1.151e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 28/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.875e-07,  objfun = 7.421e-04,  normDeltaq = 1.253e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 29/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.669e-07,  objfun = 7.291e-04,  normDeltaq = 1.242e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 30/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.890e-07,  objfun = 7.158e-04,  normDeltaq = 9.768e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 31/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.374e-07,  objfun = 7.028e-04,  normDeltaq = 7.482e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 32/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.911e-07,  objfun = 6.904e-04,  normDeltaq = 5.734e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 33/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.189e-07,  objfun = 6.788e-04,  normDeltaq = 4.577e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 34/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.921e-07,  objfun = 6.682e-04,  normDeltaq = 5.505e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 35/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.077e-07,  objfun = 6.587e-04,  normDeltaq = 7.879e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 36/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.343e-07,  objfun = 6.503e-04,  normDeltaq = 9.874e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 37/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.606e-07,  objfun = 6.430e-04,  normDeltaq = 1.096e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 38/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.759e-07,  objfun = 6.367e-04,  normDeltaq = 1.042e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 39/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.208e-07,  objfun = 6.314e-04,  normDeltaq = 8.344e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 40/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.037e-07,  objfun = 6.268e-04,  normDeltaq = 8.099e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 41/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.944e-07,  objfun = 6.225e-04,  normDeltaq = 9.598e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 42/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.970e-07,  objfun = 6.186e-04,  normDeltaq = 9.563e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 43/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.728e-07,  objfun = 6.151e-04,  normDeltaq = 8.529e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 44/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.090e-07,  objfun = 6.119e-04,  normDeltaq = 6.952e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 45/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.134e-07,  objfun = 6.091e-04,  normDeltaq = 4.534e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 46/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.229e-08,  objfun = 6.065e-04,  normDeltaq = 3.862e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 47/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.167e-08,  objfun = 6.043e-04,  normDeltaq = 3.106e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 48/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.866e-08,  objfun = 6.024e-04,  normDeltaq = 3.876e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 49/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.205e-07,  objfun = 6.008e-04,  normDeltaq = 6.053e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 50/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.067e-07,  objfun = 5.993e-04,  normDeltaq = 5.715e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 51/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.952e-08,  objfun = 5.977e-04,  normDeltaq = 2.843e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 52/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.027e-08,  objfun = 5.959e-04,  normDeltaq = 4.696e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 53/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.961e-08,  objfun = 5.940e-04,  normDeltaq = 4.566e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 54/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.918e-08,  objfun = 5.922e-04,  normDeltaq = 4.294e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 55/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.542e-07,  objfun = 5.904e-04,  normDeltaq = 4.946e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 56/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.173e-07,  objfun = 5.885e-04,  normDeltaq = 5.694e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 57/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.485e-07,  objfun = 5.866e-04,  normDeltaq = 4.708e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 58/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.112e-08,  objfun = 5.847e-04,  normDeltaq = 3.136e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 59/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.834e-08,  objfun = 5.828e-04,  normDeltaq = 2.463e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 60/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.389e-08,  objfun = 5.808e-04,  normDeltaq = 2.003e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 61/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.215e-08,  objfun = 5.787e-04,  normDeltaq = 2.276e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 62/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.684e-08,  objfun = 5.766e-04,  normDeltaq = 3.244e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 63/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.263e-08,  objfun = 5.746e-04,  normDeltaq = 3.012e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 64/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.148e-07,  objfun = 5.725e-04,  normDeltaq = 4.525e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 65/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.961e-07,  objfun = 5.703e-04,  normDeltaq = 6.916e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 66/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.157e-07,  objfun = 5.680e-04,  normDeltaq = 7.013e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 67/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.224e-08,  objfun = 5.657e-04,  normDeltaq = 3.856e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 68/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.322e-08,  objfun = 5.634e-04,  normDeltaq = 2.728e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 69/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.118e-07,  objfun = 5.610e-04,  normDeltaq = 5.910e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 70/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.970e-07,  objfun = 5.589e-04,  normDeltaq = 7.023e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 71/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.570e-07,  objfun = 5.571e-04,  normDeltaq = 6.443e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 72/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.744e-07,  objfun = 5.554e-04,  normDeltaq = 5.351e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 73/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.390e-08,  objfun = 5.540e-04,  normDeltaq = 3.998e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 74/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.762e-08,  objfun = 5.526e-04,  normDeltaq = 3.676e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 75/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.363e-08,  objfun = 5.511e-04,  normDeltaq = 3.228e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 76/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.527e-08,  objfun = 5.496e-04,  normDeltaq = 2.295e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 77/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.160e-08,  objfun = 5.482e-04,  normDeltaq = 2.807e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 78/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.086e-08,  objfun = 5.468e-04,  normDeltaq = 3.734e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 79/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.083e-08,  objfun = 5.455e-04,  normDeltaq = 3.679e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 80/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.668e-08,  objfun = 5.442e-04,  normDeltaq = 2.887e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 81/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.082e-08,  objfun = 5.430e-04,  normDeltaq = 2.586e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 82/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.775e-08,  objfun = 5.418e-04,  normDeltaq = 3.089e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 83/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.663e-07,  objfun = 5.405e-04,  normDeltaq = 4.937e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 84/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.177e-07,  objfun = 5.391e-04,  normDeltaq = 6.802e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 85/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.429e-07,  objfun = 5.378e-04,  normDeltaq = 8.195e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 86/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.180e-07,  objfun = 5.365e-04,  normDeltaq = 9.025e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 87/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.876e-07,  objfun = 5.352e-04,  normDeltaq = 9.654e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 88/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.780e-07,  objfun = 5.340e-04,  normDeltaq = 9.550e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 89/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.773e-07,  objfun = 5.328e-04,  normDeltaq = 9.548e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 90/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.102e-07,  objfun = 5.318e-04,  normDeltaq = 1.036e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 91/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.187e-07,  objfun = 5.311e-04,  normDeltaq = 1.094e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 92/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.469e-07,  objfun = 5.305e-04,  normDeltaq = 1.119e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 93/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.562e-07,  objfun = 5.299e-04,  normDeltaq = 1.067e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 94/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.705e-07,  objfun = 5.293e-04,  normDeltaq = 9.230e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 95/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.623e-07,  objfun = 5.289e-04,  normDeltaq = 7.458e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 96/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.631e-08,  objfun = 5.286e-04,  normDeltaq = 3.917e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 97/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.337e-07,  objfun = 5.283e-04,  normDeltaq = 8.142e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 98/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.379e-07,  objfun = 5.281e-04,  normDeltaq = 1.134e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 99/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.657e-07,  objfun = 5.279e-04,  normDeltaq = 1.146e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 100/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.419e-07,  objfun = 5.278e-04,  normDeltaq = 1.121e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 101/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.773e-07,  objfun = 5.278e-04,  normDeltaq = 1.205e-03,  beta = 1,  rank(C) = 106
+    Step Nº = 102/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.134e-05,  objfun = 5.279e-04,  normDeltaq = 5.714e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.481e-05,  objfun = 5.279e-04,  normDeltaq = 5.117e-03,  beta = 0.6,  rank(C) = 106
+      Iter Nº = 3,  NormPhi = 2.247e-06,  objfun = 5.279e-04,  normDeltaq = 1.827e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 4,  NormPhi = 4.450e-08,  objfun = 5.279e-04,  normDeltaq = 2.562e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 103/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.202e-06,  objfun = 5.281e-04,  normDeltaq = 1.361e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.421e-09,  objfun = 5.281e-04,  normDeltaq = 6.157e-05,  beta = 1,  rank(C) = 106
+    Step Nº = 104/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.560e-07,  objfun = 5.284e-04,  normDeltaq = 1.061e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 105/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.339e-07,  objfun = 5.289e-04,  normDeltaq = 1.050e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 106/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.467e-07,  objfun = 5.295e-04,  normDeltaq = 1.049e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 107/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.322e-07,  objfun = 5.302e-04,  normDeltaq = 1.032e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 108/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.424e-07,  objfun = 5.309e-04,  normDeltaq = 8.867e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 109/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.687e-07,  objfun = 5.316e-04,  normDeltaq = 7.307e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 110/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.694e-07,  objfun = 5.322e-04,  normDeltaq = 6.271e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 111/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.462e-07,  objfun = 5.327e-04,  normDeltaq = 6.035e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 112/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.801e-07,  objfun = 5.333e-04,  normDeltaq = 5.190e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 113/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.759e-08,  objfun = 5.339e-04,  normDeltaq = 3.481e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 114/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.593e-08,  objfun = 5.346e-04,  normDeltaq = 2.476e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 115/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.224e-08,  objfun = 5.352e-04,  normDeltaq = 2.088e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 116/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.261e-08,  objfun = 5.360e-04,  normDeltaq = 1.747e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 117/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.604e-09,  objfun = 5.369e-04,  normDeltaq = 1.370e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 118/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.143e-08,  objfun = 5.379e-04,  normDeltaq = 1.935e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 119/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.790e-08,  objfun = 5.391e-04,  normDeltaq = 2.870e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 120/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.004e-07,  objfun = 5.405e-04,  normDeltaq = 4.106e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 121/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.794e-07,  objfun = 5.422e-04,  normDeltaq = 5.519e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 122/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.618e-07,  objfun = 5.442e-04,  normDeltaq = 6.610e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 123/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.514e-07,  objfun = 5.463e-04,  normDeltaq = 6.437e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 124/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.206e-07,  objfun = 5.486e-04,  normDeltaq = 7.079e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 125/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.844e-07,  objfun = 5.511e-04,  normDeltaq = 9.313e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 126/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.337e-07,  objfun = 5.538e-04,  normDeltaq = 1.054e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 127/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.540e-07,  objfun = 5.568e-04,  normDeltaq = 1.093e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 128/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.327e-07,  objfun = 5.602e-04,  normDeltaq = 1.164e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 129/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.161e-07,  objfun = 5.639e-04,  normDeltaq = 1.159e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 130/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.677e-07,  objfun = 5.680e-04,  normDeltaq = 9.565e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 131/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.433e-07,  objfun = 5.725e-04,  normDeltaq = 7.290e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 132/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.099e-07,  objfun = 5.773e-04,  normDeltaq = 5.673e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 133/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.826e-07,  objfun = 5.822e-04,  normDeltaq = 5.337e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 134/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.433e-07,  objfun = 5.873e-04,  normDeltaq = 6.233e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 135/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.030e-07,  objfun = 5.925e-04,  normDeltaq = 6.917e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 136/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.646e-07,  objfun = 5.977e-04,  normDeltaq = 7.527e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 137/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.967e-07,  objfun = 6.028e-04,  normDeltaq = 8.726e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 138/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.642e-07,  objfun = 6.075e-04,  normDeltaq = 1.008e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 139/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.035e-07,  objfun = 6.114e-04,  normDeltaq = 9.700e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 140/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.025e-07,  objfun = 6.147e-04,  normDeltaq = 9.071e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 141/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.540e-07,  objfun = 6.177e-04,  normDeltaq = 8.693e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 142/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.752e-07,  objfun = 6.204e-04,  normDeltaq = 7.743e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 143/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.557e-07,  objfun = 6.231e-04,  normDeltaq = 7.326e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 144/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.863e-07,  objfun = 6.256e-04,  normDeltaq = 6.526e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 145/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.695e-07,  objfun = 6.281e-04,  normDeltaq = 5.150e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 146/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.228e-07,  objfun = 6.307e-04,  normDeltaq = 4.538e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 147/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.099e-07,  objfun = 6.333e-04,  normDeltaq = 4.334e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 148/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.095e-07,  objfun = 6.358e-04,  normDeltaq = 4.335e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 149/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.678e-07,  objfun = 6.377e-04,  normDeltaq = 5.408e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 150/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.640e-07,  objfun = 6.390e-04,  normDeltaq = 6.977e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 151/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.352e-07,  objfun = 6.398e-04,  normDeltaq = 5.523e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 152/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.761e-08,  objfun = 6.403e-04,  normDeltaq = 3.643e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 153/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.165e-08,  objfun = 6.408e-04,  normDeltaq = 3.336e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 154/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.176e-07,  objfun = 6.412e-04,  normDeltaq = 4.670e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 155/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.672e-07,  objfun = 6.415e-04,  normDeltaq = 5.436e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 156/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.809e-07,  objfun = 6.417e-04,  normDeltaq = 5.729e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 157/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.976e-07,  objfun = 6.417e-04,  normDeltaq = 5.996e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 158/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.630e-07,  objfun = 6.416e-04,  normDeltaq = 5.516e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 159/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.491e-08,  objfun = 6.413e-04,  normDeltaq = 4.248e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 160/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.273e-08,  objfun = 6.409e-04,  normDeltaq = 3.917e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 161/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.188e-08,  objfun = 6.406e-04,  normDeltaq = 3.924e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 162/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.254e-08,  objfun = 6.404e-04,  normDeltaq = 4.057e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 163/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.557e-08,  objfun = 6.404e-04,  normDeltaq = 4.574e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 164/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.224e-07,  objfun = 6.409e-04,  normDeltaq = 4.973e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 165/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.053e-07,  objfun = 6.415e-04,  normDeltaq = 4.609e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 166/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.034e-07,  objfun = 6.414e-04,  normDeltaq = 4.777e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 167/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.270e-07,  objfun = 6.403e-04,  normDeltaq = 5.359e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 168/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.129e-07,  objfun = 6.383e-04,  normDeltaq = 5.140e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 169/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.927e-08,  objfun = 6.356e-04,  normDeltaq = 4.623e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 170/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.814e-08,  objfun = 6.325e-04,  normDeltaq = 3.059e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 171/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.063e-09,  objfun = 6.303e-04,  normDeltaq = 1.491e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 172/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.572e-08,  objfun = 6.295e-04,  normDeltaq = 3.952e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 173/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.270e-07,  objfun = 6.301e-04,  normDeltaq = 4.857e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 174/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.649e-08,  objfun = 6.317e-04,  normDeltaq = 3.905e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 175/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.257e-08,  objfun = 6.327e-04,  normDeltaq = 3.237e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 176/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.255e-08,  objfun = 6.325e-04,  normDeltaq = 3.517e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 177/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.927e-08,  objfun = 6.315e-04,  normDeltaq = 3.022e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 178/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.971e-08,  objfun = 6.299e-04,  normDeltaq = 2.214e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 179/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.720e-09,  objfun = 6.285e-04,  normDeltaq = 1.416e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 180/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.847e-08,  objfun = 6.269e-04,  normDeltaq = 2.107e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 181/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.190e-08,  objfun = 6.248e-04,  normDeltaq = 3.415e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 182/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.732e-07,  objfun = 6.229e-04,  normDeltaq = 5.371e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 183/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.137e-07,  objfun = 6.217e-04,  normDeltaq = 7.159e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 184/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.967e-07,  objfun = 6.209e-04,  normDeltaq = 8.796e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 185/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.751e-07,  objfun = 6.200e-04,  normDeltaq = 1.104e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 186/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.276e-06,  objfun = 6.190e-04,  normDeltaq = 1.412e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 6.360e-09,  objfun = 6.190e-04,  normDeltaq = 1.037e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 187/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.726e-06,  objfun = 6.176e-04,  normDeltaq = 1.617e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 7.651e-09,  objfun = 6.176e-04,  normDeltaq = 1.121e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 188/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.287e-06,  objfun = 6.161e-04,  normDeltaq = 1.868e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.094e-08,  objfun = 6.161e-04,  normDeltaq = 1.347e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 189/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.779e-06,  objfun = 6.141e-04,  normDeltaq = 1.686e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 8.917e-09,  objfun = 6.141e-04,  normDeltaq = 1.230e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 190/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.111e-06,  objfun = 6.117e-04,  normDeltaq = 1.764e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.646e-09,  objfun = 6.117e-04,  normDeltaq = 7.352e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 191/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.594e-06,  objfun = 6.089e-04,  normDeltaq = 2.647e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.835e-09,  objfun = 6.089e-04,  normDeltaq = 6.622e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 192/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.820e-06,  objfun = 6.060e-04,  normDeltaq = 2.439e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.156e-09,  objfun = 6.060e-04,  normDeltaq = 7.102e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 193/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.244e-06,  objfun = 6.029e-04,  normDeltaq = 1.410e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.015e-09,  objfun = 6.029e-04,  normDeltaq = 4.868e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 194/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.561e-07,  objfun = 5.993e-04,  normDeltaq = 9.748e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 195/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.000e-06,  objfun = 5.951e-04,  normDeltaq = 1.304e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.161e-09,  objfun = 5.951e-04,  normDeltaq = 9.970e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 196/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.702e-06,  objfun = 5.897e-04,  normDeltaq = 1.633e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 8.394e-09,  objfun = 5.897e-04,  normDeltaq = 1.225e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 197/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.719e-06,  objfun = 5.828e-04,  normDeltaq = 2.051e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.277e-08,  objfun = 5.828e-04,  normDeltaq = 1.501e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 198/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.260e-06,  objfun = 5.748e-04,  normDeltaq = 1.877e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 9.696e-09,  objfun = 5.748e-04,  normDeltaq = 1.307e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 199/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.973e-07,  objfun = 5.669e-04,  normDeltaq = 9.303e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 200/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.821e-07,  objfun = 5.592e-04,  normDeltaq = 9.458e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 201/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.108e-06,  objfun = 5.519e-04,  normDeltaq = 2.813e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.882e-08,  objfun = 5.519e-04,  normDeltaq = 1.770e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 202/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.157e-06,  objfun = 5.462e-04,  normDeltaq = 3.665e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.999e-08,  objfun = 5.462e-04,  normDeltaq = 2.329e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 203/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.215e-06,  objfun = 5.421e-04,  normDeltaq = 3.721e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.649e-08,  objfun = 5.421e-04,  normDeltaq = 2.266e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 204/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.597e-06,  objfun = 5.392e-04,  normDeltaq = 3.071e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.481e-08,  objfun = 5.392e-04,  normDeltaq = 1.733e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 205/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.515e-06,  objfun = 5.374e-04,  normDeltaq = 2.064e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.875e-09,  objfun = 5.374e-04,  normDeltaq = 1.088e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 206/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.693e-07,  objfun = 5.364e-04,  normDeltaq = 8.063e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 207/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.209e-07,  objfun = 5.358e-04,  normDeltaq = 7.259e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 208/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.905e-07,  objfun = 5.352e-04,  normDeltaq = 1.282e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 209/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.534e-07,  objfun = 5.347e-04,  normDeltaq = 9.771e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 210/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.435e-08,  objfun = 5.340e-04,  normDeltaq = 3.710e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 211/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.426e-07,  objfun = 5.331e-04,  normDeltaq = 6.176e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 212/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.972e-07,  objfun = 5.323e-04,  normDeltaq = 1.218e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 213/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.588e-07,  objfun = 5.317e-04,  normDeltaq = 1.305e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 214/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.710e-07,  objfun = 5.312e-04,  normDeltaq = 9.477e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 215/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.095e-07,  objfun = 5.307e-04,  normDeltaq = 6.329e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 216/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.915e-07,  objfun = 5.302e-04,  normDeltaq = 6.613e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 217/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.722e-07,  objfun = 5.294e-04,  normDeltaq = 1.016e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 218/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.138e-06,  objfun = 5.284e-04,  normDeltaq = 1.331e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.873e-09,  objfun = 5.284e-04,  normDeltaq = 6.895e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 219/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.455e-07,  objfun = 5.271e-04,  normDeltaq = 1.208e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 220/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.659e-07,  objfun = 5.255e-04,  normDeltaq = 1.006e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 221/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.761e-08,  objfun = 5.240e-04,  normDeltaq = 3.860e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 222/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.930e-07,  objfun = 5.226e-04,  normDeltaq = 6.818e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 223/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.272e-07,  objfun = 5.213e-04,  normDeltaq = 1.047e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 224/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.468e-07,  objfun = 5.203e-04,  normDeltaq = 1.004e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 225/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.495e-07,  objfun = 5.193e-04,  normDeltaq = 7.261e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 226/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.807e-08,  objfun = 5.183e-04,  normDeltaq = 2.773e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 227/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.667e-07,  objfun = 5.174e-04,  normDeltaq = 7.030e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 228/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.597e-07,  objfun = 5.165e-04,  normDeltaq = 1.099e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 229/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.419e-07,  objfun = 5.159e-04,  normDeltaq = 1.232e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 230/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.574e-07,  objfun = 5.154e-04,  normDeltaq = 9.533e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 231/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.121e-07,  objfun = 5.149e-04,  normDeltaq = 5.248e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 232/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.400e-07,  objfun = 5.146e-04,  normDeltaq = 1.172e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 233/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.307e-06,  objfun = 5.147e-04,  normDeltaq = 1.862e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.627e-09,  objfun = 5.147e-04,  normDeltaq = 9.335e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 234/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.145e-06,  objfun = 5.148e-04,  normDeltaq = 1.897e-03,  beta = 1,  rank(C) = 106
+      Iter Nº = 2,  NormPhi = 4.887e-09,  objfun = 5.148e-04,  normDeltaq = 9.508e-05,  beta = 1,  rank(C) = 106
+    Step Nº = 235/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.066e-06,  objfun = 5.149e-04,  normDeltaq = 1.472e-03,  beta = 1,  rank(C) = 106
+      Iter Nº = 2,  NormPhi = 2.735e-09,  objfun = 5.149e-04,  normDeltaq = 7.841e-05,  beta = 1,  rank(C) = 106
+    Step Nº = 236/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.955e-07,  objfun = 5.149e-04,  normDeltaq = 8.347e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 237/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.878e-05,  objfun = 5.149e-04,  normDeltaq = 8.013e-03,  beta = 0.35,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.088e-06,  objfun = 5.149e-04,  normDeltaq = 2.839e-03,  beta = 1,  rank(C) = 106
+      Iter Nº = 3,  NormPhi = 9.816e-09,  objfun = 5.149e-04,  normDeltaq = 1.260e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 238/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.564e-07,  objfun = 5.147e-04,  normDeltaq = 9.272e-04,  beta = 1,  rank(C) = 106
+    Step Nº = 239/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.188e-06,  objfun = 5.147e-04,  normDeltaq = 1.356e-03,  beta = 1,  rank(C) = 106
+      Iter Nº = 2,  NormPhi = 1.492e-09,  objfun = 5.147e-04,  normDeltaq = 5.045e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 240/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.461e-06,  objfun = 5.148e-04,  normDeltaq = 1.519e-03,  beta = 1,  rank(C) = 106
+      Iter Nº = 2,  NormPhi = 1.844e-09,  objfun = 5.148e-04,  normDeltaq = 5.762e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 241/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.507e-06,  objfun = 5.148e-04,  normDeltaq = 1.548e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.810e-09,  objfun = 5.148e-04,  normDeltaq = 5.635e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 242/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.145e-06,  objfun = 5.145e-04,  normDeltaq = 1.351e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 1.508e-09,  objfun = 5.145e-04,  normDeltaq = 4.926e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 243/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.384e-07,  objfun = 5.138e-04,  normDeltaq = 1.002e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 244/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.664e-07,  objfun = 5.132e-04,  normDeltaq = 7.545e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 245/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.029e-07,  objfun = 5.129e-04,  normDeltaq = 5.742e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 246/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.694e-07,  objfun = 5.129e-04,  normDeltaq = 5.095e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 247/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.988e-07,  objfun = 5.132e-04,  normDeltaq = 5.563e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 248/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.207e-07,  objfun = 5.139e-04,  normDeltaq = 5.920e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 249/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.897e-07,  objfun = 5.147e-04,  normDeltaq = 5.450e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 250/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.542e-07,  objfun = 5.156e-04,  normDeltaq = 4.861e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 251/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.710e-07,  objfun = 5.167e-04,  normDeltaq = 5.046e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 252/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.285e-07,  objfun = 5.180e-04,  normDeltaq = 5.798e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 253/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.979e-07,  objfun = 5.197e-04,  normDeltaq = 6.606e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 254/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.502e-07,  objfun = 5.218e-04,  normDeltaq = 7.267e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 255/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.510e-07,  objfun = 5.241e-04,  normDeltaq = 7.389e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 256/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.903e-07,  objfun = 5.266e-04,  normDeltaq = 6.756e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 257/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.386e-07,  objfun = 5.294e-04,  normDeltaq = 6.174e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 258/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.345e-07,  objfun = 5.323e-04,  normDeltaq = 5.988e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 259/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.499e-07,  objfun = 5.354e-04,  normDeltaq = 7.588e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 260/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.548e-07,  objfun = 5.384e-04,  normDeltaq = 9.616e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 261/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.608e-07,  objfun = 5.415e-04,  normDeltaq = 1.106e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 262/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.171e-07,  objfun = 5.444e-04,  normDeltaq = 1.198e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 263/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.697e-07,  objfun = 5.473e-04,  normDeltaq = 1.164e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 264/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.837e-07,  objfun = 5.502e-04,  normDeltaq = 1.030e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 265/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.108e-07,  objfun = 5.532e-04,  normDeltaq = 7.941e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 266/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.876e-07,  objfun = 5.561e-04,  normDeltaq = 5.353e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 267/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.133e-07,  objfun = 5.591e-04,  normDeltaq = 4.143e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 268/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.442e-07,  objfun = 5.620e-04,  normDeltaq = 4.726e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 269/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.234e-07,  objfun = 5.649e-04,  normDeltaq = 5.909e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 270/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.425e-07,  objfun = 5.676e-04,  normDeltaq = 6.173e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 271/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.595e-07,  objfun = 5.703e-04,  normDeltaq = 6.386e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 272/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.816e-07,  objfun = 5.727e-04,  normDeltaq = 6.667e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 273/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.450e-07,  objfun = 5.750e-04,  normDeltaq = 6.282e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 274/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.161e-07,  objfun = 5.772e-04,  normDeltaq = 4.533e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 275/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.418e-08,  objfun = 5.794e-04,  normDeltaq = 2.804e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 276/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.583e-08,  objfun = 5.815e-04,  normDeltaq = 3.873e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 277/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.128e-07,  objfun = 5.838e-04,  normDeltaq = 6.036e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 278/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.855e-07,  objfun = 5.864e-04,  normDeltaq = 6.826e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 279/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.201e-07,  objfun = 5.894e-04,  normDeltaq = 7.130e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 280/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.158e-07,  objfun = 5.926e-04,  normDeltaq = 8.079e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 281/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.019e-07,  objfun = 5.961e-04,  normDeltaq = 9.661e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 282/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.923e-07,  objfun = 6.000e-04,  normDeltaq = 1.109e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 283/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.985e-07,  objfun = 6.043e-04,  normDeltaq = 1.048e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 284/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.017e-07,  objfun = 6.090e-04,  normDeltaq = 8.868e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 285/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.395e-07,  objfun = 6.142e-04,  normDeltaq = 8.260e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 286/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.863e-07,  objfun = 6.201e-04,  normDeltaq = 7.758e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 287/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.016e-07,  objfun = 6.266e-04,  normDeltaq = 7.962e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 288/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.915e-07,  objfun = 6.334e-04,  normDeltaq = 9.861e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 289/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.081e-07,  objfun = 6.405e-04,  normDeltaq = 9.338e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 290/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.112e-07,  objfun = 6.476e-04,  normDeltaq = 6.319e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 291/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.007e-07,  objfun = 6.549e-04,  normDeltaq = 4.371e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 292/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.596e-07,  objfun = 6.622e-04,  normDeltaq = 6.454e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 293/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.011e-07,  objfun = 6.694e-04,  normDeltaq = 9.751e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 294/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.031e-07,  objfun = 6.764e-04,  normDeltaq = 1.115e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 295/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.444e-07,  objfun = 6.831e-04,  normDeltaq = 1.059e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 296/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.101e-07,  objfun = 6.895e-04,  normDeltaq = 1.018e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 297/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.717e-07,  objfun = 6.956e-04,  normDeltaq = 1.183e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 298/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.187e-06,  objfun = 7.014e-04,  normDeltaq = 1.305e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.594e-09,  objfun = 7.014e-04,  normDeltaq = 6.437e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 299/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.047e-06,  objfun = 7.069e-04,  normDeltaq = 1.229e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 2.457e-09,  objfun = 7.069e-04,  normDeltaq = 6.243e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 300/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.158e-06,  objfun = 7.123e-04,  normDeltaq = 1.293e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 3.949e-09,  objfun = 7.123e-04,  normDeltaq = 7.781e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 301/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.249e-06,  objfun = 7.175e-04,  normDeltaq = 1.348e-03,  beta = 1,  rank(C) = 105
+      Iter Nº = 2,  NormPhi = 5.319e-09,  objfun = 7.175e-04,  normDeltaq = 9.041e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 302/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.991e-07,  objfun = 7.224e-04,  normDeltaq = 1.215e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 303/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.569e-07,  objfun = 7.268e-04,  normDeltaq = 9.223e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 304/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.407e-07,  objfun = 7.313e-04,  normDeltaq = 5.056e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 305/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.345e-08,  objfun = 7.359e-04,  normDeltaq = 3.736e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 306/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.668e-08,  objfun = 7.399e-04,  normDeltaq = 2.996e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 307/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.242e-08,  objfun = 7.432e-04,  normDeltaq = 2.462e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 308/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.833e-08,  objfun = 7.472e-04,  normDeltaq = 2.683e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 309/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.067e-07,  objfun = 7.523e-04,  normDeltaq = 4.685e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 310/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.844e-07,  objfun = 7.579e-04,  normDeltaq = 6.574e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 311/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.024e-07,  objfun = 7.625e-04,  normDeltaq = 6.899e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 312/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.732e-07,  objfun = 7.663e-04,  normDeltaq = 5.511e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 313/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.303e-07,  objfun = 7.704e-04,  normDeltaq = 4.743e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 314/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.310e-07,  objfun = 7.753e-04,  normDeltaq = 5.045e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 315/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.956e-07,  objfun = 7.805e-04,  normDeltaq = 6.943e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 316/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.207e-07,  objfun = 7.859e-04,  normDeltaq = 1.069e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 317/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.951e-07,  objfun = 7.918e-04,  normDeltaq = 1.113e-03,  beta = 1,  rank(C) = 105
+    Step Nº = 318/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.029e-07,  objfun = 7.985e-04,  normDeltaq = 8.820e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 319/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.500e-07,  objfun = 8.058e-04,  normDeltaq = 6.317e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 320/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.342e-07,  objfun = 8.133e-04,  normDeltaq = 4.778e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 321/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.111e-07,  objfun = 8.204e-04,  normDeltaq = 4.242e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 322/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.354e-07,  objfun = 8.270e-04,  normDeltaq = 4.834e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 323/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.586e-07,  objfun = 8.333e-04,  normDeltaq = 5.386e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 324/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.536e-07,  objfun = 8.394e-04,  normDeltaq = 4.986e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 325/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.708e-07,  objfun = 8.452e-04,  normDeltaq = 5.132e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 326/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.890e-07,  objfun = 8.508e-04,  normDeltaq = 5.448e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 327/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.629e-07,  objfun = 8.568e-04,  normDeltaq = 4.995e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 328/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.164e-07,  objfun = 8.636e-04,  normDeltaq = 4.360e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 329/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.458e-08,  objfun = 8.711e-04,  normDeltaq = 4.020e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 330/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.441e-08,  objfun = 8.790e-04,  normDeltaq = 3.634e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 331/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.516e-08,  objfun = 8.863e-04,  normDeltaq = 3.385e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 332/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.753e-08,  objfun = 8.932e-04,  normDeltaq = 3.471e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 333/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.745e-08,  objfun = 9.000e-04,  normDeltaq = 3.788e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 334/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.111e-08,  objfun = 9.069e-04,  normDeltaq = 3.316e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 335/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.396e-08,  objfun = 9.135e-04,  normDeltaq = 3.055e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 336/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.586e-08,  objfun = 9.191e-04,  normDeltaq = 3.955e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 337/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.352e-08,  objfun = 9.245e-04,  normDeltaq = 4.378e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 338/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.359e-07,  objfun = 9.298e-04,  normDeltaq = 5.444e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 339/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.827e-07,  objfun = 9.347e-04,  normDeltaq = 5.757e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 340/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.456e-07,  objfun = 9.396e-04,  normDeltaq = 4.799e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 341/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.459e-08,  objfun = 9.457e-04,  normDeltaq = 3.368e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 342/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.052e-08,  objfun = 9.529e-04,  normDeltaq = 2.758e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 343/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.544e-08,  objfun = 9.606e-04,  normDeltaq = 2.626e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 344/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.890e-08,  objfun = 9.686e-04,  normDeltaq = 2.117e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 345/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.995e-08,  objfun = 9.769e-04,  normDeltaq = 1.824e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 346/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.497e-08,  objfun = 9.849e-04,  normDeltaq = 2.001e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 347/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.357e-08,  objfun = 9.927e-04,  normDeltaq = 1.982e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 348/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.460e-08,  objfun = 1.000e-03,  normDeltaq = 1.607e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 349/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.156e-08,  objfun = 1.008e-03,  normDeltaq = 1.464e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 350/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.090e-08,  objfun = 1.016e-03,  normDeltaq = 1.372e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 351/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.976e-09,  objfun = 1.023e-03,  normDeltaq = 1.081e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 352/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.141e-09,  objfun = 1.032e-03,  normDeltaq = 1.056e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 353/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.118e-08,  objfun = 1.040e-03,  normDeltaq = 1.489e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 354/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.206e-08,  objfun = 1.049e-03,  normDeltaq = 2.020e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 355/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.501e-08,  objfun = 1.058e-03,  normDeltaq = 2.386e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 356/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.668e-08,  objfun = 1.067e-03,  normDeltaq = 2.412e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 357/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.411e-08,  objfun = 1.077e-03,  normDeltaq = 2.037e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 358/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.784e-08,  objfun = 1.086e-03,  normDeltaq = 1.898e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 359/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.669e-08,  objfun = 1.096e-03,  normDeltaq = 1.882e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 360/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.750e-08,  objfun = 1.105e-03,  normDeltaq = 1.871e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 361/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.972e-08,  objfun = 1.114e-03,  normDeltaq = 2.308e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 362/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.656e-08,  objfun = 1.123e-03,  normDeltaq = 2.518e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 363/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.988e-08,  objfun = 1.131e-03,  normDeltaq = 2.325e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 364/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.986e-08,  objfun = 1.139e-03,  normDeltaq = 2.350e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 365/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.121e-08,  objfun = 1.146e-03,  normDeltaq = 2.877e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 366/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.663e-08,  objfun = 1.152e-03,  normDeltaq = 3.518e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 367/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.207e-08,  objfun = 1.159e-03,  normDeltaq = 3.501e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 368/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.691e-08,  objfun = 1.165e-03,  normDeltaq = 3.445e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 369/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.084e-08,  objfun = 1.170e-03,  normDeltaq = 3.490e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 370/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.362e-08,  objfun = 1.175e-03,  normDeltaq = 3.674e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 371/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.708e-08,  objfun = 1.179e-03,  normDeltaq = 3.572e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 372/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.456e-08,  objfun = 1.182e-03,  normDeltaq = 3.127e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 373/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.450e-08,  objfun = 1.185e-03,  normDeltaq = 2.826e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 374/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.895e-08,  objfun = 1.188e-03,  normDeltaq = 3.080e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 375/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.066e-08,  objfun = 1.192e-03,  normDeltaq = 3.555e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 376/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.543e-08,  objfun = 1.194e-03,  normDeltaq = 3.952e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 377/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.438e-08,  objfun = 1.195e-03,  normDeltaq = 3.638e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 378/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 5.684e-08,  objfun = 1.196e-03,  normDeltaq = 3.071e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 379/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.293e-08,  objfun = 1.196e-03,  normDeltaq = 2.587e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 380/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.427e-08,  objfun = 1.197e-03,  normDeltaq = 2.042e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 381/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 7.171e-09,  objfun = 1.197e-03,  normDeltaq = 1.349e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 382/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.066e-08,  objfun = 1.198e-03,  normDeltaq = 1.628e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 383/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.361e-08,  objfun = 1.199e-03,  normDeltaq = 1.702e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 384/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.862e-09,  objfun = 1.200e-03,  normDeltaq = 1.318e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 385/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 8.881e-09,  objfun = 1.201e-03,  normDeltaq = 1.481e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 386/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.311e-09,  objfun = 1.202e-03,  normDeltaq = 1.119e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 387/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.726e-09,  objfun = 1.203e-03,  normDeltaq = 9.614e-05,  beta = 1,  rank(C) = 105
+    Step Nº = 388/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.241e-09,  objfun = 1.204e-03,  normDeltaq = 1.241e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 389/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.250e-08,  objfun = 1.204e-03,  normDeltaq = 1.595e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 390/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 2.466e-08,  objfun = 1.204e-03,  normDeltaq = 2.113e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 391/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 3.479e-08,  objfun = 1.203e-03,  normDeltaq = 2.364e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 392/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.137e-08,  objfun = 1.203e-03,  normDeltaq = 1.444e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 393/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 4.626e-08,  objfun = 1.202e-03,  normDeltaq = 2.968e-04,  beta = 1,  rank(C) = 106
+    Step Nº = 394/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.412e-08,  objfun = 1.201e-03,  normDeltaq = 1.493e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 395/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 6.936e-09,  objfun = 1.201e-03,  normDeltaq = 1.150e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 396/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 1.884e-08,  objfun = 1.200e-03,  normDeltaq = 1.774e-04,  beta = 1,  rank(C) = 105
+    Step Nº = 397/397 - SPEED MODE
+      Iter Nº = 1,  NormPhi = 9.395e-09,  objfun = 1.200e-03,  normDeltaq = 1.327e-04,  beta = 1,  rank(C) = 105
+
+    --------------------------------------------------
+     Solver convergence report. TOL = 1e-06
+    --------------------------------------------------
+      Error Range      Frames       Percentages
+     -------------   ----------   ---------------
+       < 1e-7            168           42.32
+     [1e-7, 1e-6]        229           57.68
+     [1e-6, 1e-5]          0            0.00
+     [1e-5, 1e-4]          0            0.00
+     [1e-4, 1e-3]          0            0.00
+     [1e-3, 1e-2]          0            0.00
+     [1e-2, 1e-1]          0            0.00
+     [1e-1, 1.0 ]          0            0.00
+       > 1.0               0            0.00
+     Number of total iterations: 469
+   IK Solver Time: 0 hour(s) 0 minute(s) and 1.076 second(s).
+
+   --------------------------------------
+    Results files 
+   --------------------------------------
+    Writing reconstructed motion in COMPAMM format:
+      ExpRightLeg_RightLeg_Group10_ankle1.pb
+      ExpRightLeg_RightLeg_Group10_ankle1.sim
+    Writing output data in COMPAMM format:
+      ExpRightLeg_RightLeg_Group10_ankle1.pos
+      ExpRightLeg_RightLeg_Group10_ankle1.sen
+  Total Time: 0 hour(s) 0 minute(s) and 2.8413 second(s).
